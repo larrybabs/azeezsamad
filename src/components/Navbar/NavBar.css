@@ -1,0 +1,17 @@
+.container {
+    color: #fff;
+    width: full;
+    height: 80px;
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    background-color: #16133a;
+    border: 2px solid red;
+
+    /* fixed w-full h-[80] flex justify-between items-center px-4 bg-[#16133a] text-gray-300 */
+}
+.logo {
+    font-size: 3rem;
+}
