@@ -8,7 +8,7 @@ const Work = () => {
     <div name="work" className="w-full md:h-screen bg-[#16133a] text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl inline border-b-4 border-red-600 font-bold">
+          <p className="text-4xl inline border-b-4 border-purple-600 font-bold">
             Work
           </p>
           <p className="py-4">Checkout some of my recent works</p>
