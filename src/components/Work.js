@@ -2,6 +2,7 @@ import React from "react";
 import Cars from "../assets/cars.png";
 import Manage from "../assets/manage.png";
 import Memory from "../assets/memory.png";
+import Bike from "../assets/Desktop.jpg";
 
 const Work = () => {
   return (
@@ -89,6 +90,26 @@ const Work = () => {
             </div>
           </div>
  
+        {/* card */}
+        <div
+            style={{ backgroundImage: `url(${Bike})` }}
+            className="shadow-lg shadow-[#1b1188] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* hover */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl text-white font-bold tracking-wider">
+                Website design
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://www.behance.net/gallery/128179895/Unique-Bikes">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Link
+                  </button>
+                </a>
+                
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
