@@ -90,7 +90,7 @@ const NavBar = () => {
         <ul>
           <li className="flex justify-between items-center w-[160px] h-[60px] text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0966C2]">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/samad-azeez-656b6621a/"
               className="flex justify-between items-center w-full text-gray-300 font-bold"
             >
               LinkedIn <FaLinkedin size="30" />
@@ -98,7 +98,7 @@ const NavBar = () => {
           </li>
           <li className="flex justify-between items-center w-[160px] h-[60px] text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
-              href="/"
+              href="https://github.com/larrybabs"
               className="flex justify-between items-center w-full text-gray-300 font-bold"
             >
               GitHub <FaGithub size="30" />
@@ -106,7 +106,7 @@ const NavBar = () => {
           </li>
           <li className="flex justify-between items-center w-[160px] h-[60px] text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0057FF]">
             <a
-              href="/"
+              href="https://www.behance.net/samadolanrewaju"
               className="flex justify-between items-center w-full text-gray-300 font-bold"
             >
               Behance <FaBehance size="30" />
@@ -114,7 +114,7 @@ const NavBar = () => {
           </li>
           <li className="flex justify-between items-center w-[160px] h-[60px] text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              href="/"
+              href="https://www.notion.so/Professional-Resume-6ed0ad28ff1246399e8d6678e9dbb3d2"
               className="flex justify-between items-center w-full text-gray-300 font-bold"
             >
               Resume <BsFillPersonLinesFill size="30" />
@@ -122,7 +122,7 @@ const NavBar = () => {
           </li>
           <li className="flex justify-between items-center w-[160px] h-[60px] text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
-              href="/"
+              href="azeezsamad88@yahoo.com"
               className="flex justify-between items-center w-full text-gray-300 font-bold"
             >
               Email <HiOutlineMail size="30" />
