@@ -11,7 +11,7 @@ const NavBar = () => {
 
 
   return (
-    <div className="fixed w-full h-[80] flex justify-between items-center px-4 bg-[#16133a] text-gray-300 ">
+    <div className="fixed w-full h-[80] flex justify-between items-center px-4 py-2 bg-[#16133a] text-gray-300 ">
       <div>
         <h1 className="text-5xl font-bold z-10">SA</h1>
       </div>

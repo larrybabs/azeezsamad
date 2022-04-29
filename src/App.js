@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
      <About />
      <Skills />
      <Work />
+     <Contact />
     </div>
   );
 }
