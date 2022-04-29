@@ -1,6 +1,7 @@
 import React from "react";
 import Cars from "../assets/cars.png";
 import Manage from "../assets/manage.png";
+import Memory from "../assets/memory.png";
 
 const Work = () => {
   return (
@@ -65,7 +66,7 @@ const Work = () => {
 
           {/* card */}
           <div
-            style={{ backgroundImage: `url(${Cars})` }}
+            style={{ backgroundImage: `url(${Memory})` }}
             className="shadow-lg shadow-[#1b1188] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover */}
@@ -74,7 +75,7 @@ const Work = () => {
                 Memory game
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://memory-game-eosin-kappa.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
