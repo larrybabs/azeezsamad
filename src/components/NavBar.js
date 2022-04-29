@@ -85,6 +85,37 @@ const NavBar = () => {
             Contact
           </Link>
         </li>
+        <div className="flex justify-between mt-10">
+        <li>
+            <a
+              href="https://www.linkedin.com/in/samad-azeez-656b6621a/"
+            >
+              <FaLinkedin size="30" />
+            </a>
+          </li>
+          <li >
+            <a
+              href="https://github.com/larrybabs"
+            >
+              <FaGithub size="30" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.behance.net/samadolanrewaju"
+              
+            >
+              <FaBehance size="30" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.notion.so/Professional-Resume-6ed0ad28ff1246399e8d6678e9dbb3d2"
+            >
+               <BsFillPersonLinesFill size="30" />
+            </a>
+          </li>
+        </div>
       </ul>
       <div className="fixed hidden lg:flex flex-col top-[35%] left-0">
         <ul>
