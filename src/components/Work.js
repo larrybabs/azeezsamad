@@ -25,7 +25,7 @@ const Work = () => {
             {/* hover */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl text-white font-bold tracking-wider">
-                Crypto Web Landing page
+                Crypto Website
               </span>
               <div className="pt-8 text-center">
                 <a href="https://crypto-web-landing-page.vercel.app/">
