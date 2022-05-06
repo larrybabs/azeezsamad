@@ -3,6 +3,7 @@ import Cars from "../assets/cars.png";
 import Manage from "../assets/manage.png";
 import Memory from "../assets/memory.png";
 import Bike from "../assets/Desktop.jpg";
+import Crypto from "../assets/coinmeta.png";
 
 const Work = () => {
   return (
@@ -17,6 +18,29 @@ const Work = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* card */}
+          <div
+            style={{ backgroundImage: `url(${Crypto})` }}
+            className="shadow-lg shadow-[#1b1188] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* hover */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl text-white font-bold tracking-wider">
+                Crypto Web Landing page
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://crypto-web-landing-page.vercel.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/larrybabs/crypto-web-landing-page">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div
             style={{ backgroundImage: `url(${Cars})` }}
             className="shadow-lg shadow-[#1b1188] group container rounded-md flex justify-center items-center mx-auto content-div"
