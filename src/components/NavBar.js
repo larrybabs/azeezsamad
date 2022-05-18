@@ -110,7 +110,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="https://www.notion.so/Professional-Resume-6ed0ad28ff1246399e8d6678e9dbb3d2"
+              href="https://docs.google.com/document/d/1qsdQHzkwByoAcbsLZy3hVEiWF8Djs81x8AmhrkaO-nQ/edit"
             >
                <BsFillPersonLinesFill size="30" />
             </a>
