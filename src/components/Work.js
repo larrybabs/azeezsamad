@@ -75,7 +75,7 @@ const Work = () => {
                 Manage Landing page
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://larrybabs.github.io/manage-landing-page/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
