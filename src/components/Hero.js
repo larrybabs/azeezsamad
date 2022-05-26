@@ -1,6 +1,7 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import { Link } from "react-scroll";
+import { motion } from 'framer-motion'
 
 
 const Hero = () => {
@@ -9,7 +10,12 @@ const Hero = () => {
 
         <div className="container max-w-[1000px] mx-auto px-6 flex flex-col justify-center h-full">
             <p className="text-purple-600">Hello, my name is</p>
-            <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]"> Azeez Samad</h1>
+            <motion.h1 
+            drag
+            initial={{x: 1200, }}
+            animate={{x: 0, rotate: 0}}
+            transition={{ duration: 4, type: "spring"}}
+            className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]"> Azeez Samad</motion.h1>
             <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]"> I'm a Front-end developer and a UI/UX <span className="text-purple-600">designer.</span> </h2>
             <p className="text-[#8892b0] py-4 max-w-[700px]"> I’m a front-end developer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
