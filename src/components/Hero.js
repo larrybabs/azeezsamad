@@ -11,9 +11,8 @@ const Hero = () => {
         <div className="container max-w-[1000px] mx-auto px-6 flex flex-col justify-center h-full">
             <p className="text-purple-600">Hello, my name is</p>
             <motion.h1 
-            drag
-            initial={{x: 1200, }}
-            animate={{x: 0, rotate: 0}}
+            initial={{x: 1000, scale: 0.1 }}
+            animate={{x: 0, scale: 1 }}
             transition={{ duration: 4, type: "spring"}}
             className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]"> Azeez Samad</motion.h1>
             <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]"> I'm a Front-end developer and a UI/UX <span className="text-purple-600">designer.</span> </h2>
