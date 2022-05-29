@@ -145,7 +145,7 @@ const NavBar = () => {
           </li>
           <li className="flex justify-between items-center w-[160px] h-[60px] text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              href="https://www.notion.so/Professional-Resume-6ed0ad28ff1246399e8d6678e9dbb3d2"
+              href="https://docs.google.com/document/d/1qsdQHzkwByoAcbsLZy3hVEiWF8Djs81x8AmhrkaO-nQ/edit"
               className="flex justify-between items-center w-full text-gray-300 font-bold"
             >
               Resume <BsFillPersonLinesFill size="30" />
@@ -153,7 +153,7 @@ const NavBar = () => {
           </li>
           <li className="flex justify-between items-center w-[160px] h-[60px] text-gray-300 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
-              href="azeezsamad88@yahoo.com"
+              href="mailto:azeezsamad88@yahoo.com"
               className="flex justify-between items-center w-full text-gray-300 font-bold"
             >
               Email <HiOutlineMail size="30" />

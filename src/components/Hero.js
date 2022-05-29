@@ -5,13 +5,23 @@ import { motion } from 'framer-motion'
 
 
 const Hero = () => {
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        delayChildren: 0.5
+      }
+    }
+  }
   return (
     <div name="hero" className="w-full h-screen bg-[#1b1188]">
 
-        <div className="container max-w-[1000px] mx-auto px-6 flex flex-col justify-center h-full">
+        <motion.div variants={container} initial="hidden"
+    animate="show" transition={{ duration: 4, type: "spring"}} className="container max-w-[1000px] mx-auto px-6 flex flex-col justify-center h-full">
             <p className="text-purple-600">Hello, my name is</p>
             <motion.h1 
-            initial={{x: 1000, scale: 0.1 }}
+            initial={{x: 800, scale: 0.1 }}
             animate={{x: 0, scale: 1 }}
             transition={{ duration: 4, type: "spring"}}
             className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]"> Azeez Samad</motion.h1>
@@ -27,7 +37,7 @@ const Hero = () => {
                   </span></button>
                   </Link>
           </div>
-        </div>
+        </motion.div>
  
     </div>
   );
